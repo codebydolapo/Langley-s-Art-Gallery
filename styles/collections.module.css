@@ -1,0 +1,208 @@
+.collections{
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: coral; */
+}
+
+.top{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 100px;
+}
+
+.topRight{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topRight > h2{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 20px;
+}
+
+.topRight > h1{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.topRight > p{
+    font-family: 'Ibarra Real Nova', poppins, serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 300px;
+    margin-top: 20px;
+}
+
+.exploreButton{
+    width: 150px;
+    height: 40px;
+    background: black;
+    color: white;
+    font-family: 'Cormorant Sc', poppins, serif;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.topLeft{
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topImage{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    transform: rotateZ(20deg);
+}
+
+.middle{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 100px;
+}
+
+.middleLeft{
+    height: 100%;
+    width: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.middleLeft > h2{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 20px;
+}
+
+.middleLeft > h1{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+
+.middleMiddle{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleImage{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    /* transform: rotateZ(20deg); */
+}
+
+.middleRight{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middleRight > p{
+    font-family: 'Ibarra Real Nova', poppins, serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: right;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.bottom{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    display: flex;
+}
+.bottomRight{
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomImage{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    transform: rotateZ(-20deg);
+}
+
+.bottomLeft{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottomLeft > h2{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 20px;
+}
+
+.bottomLeft > h1{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.bottomLeft > p{
+    font-family: 'Ibarra Real Nova', poppins, serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 300px;
+    margin-top: 20px;
+}
+
+.underline{
+    height: 3px;
+    width: 80vw;
+    background: black;
+    margin: 50px 0;
+}

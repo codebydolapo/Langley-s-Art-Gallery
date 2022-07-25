@@ -1,0 +1,83 @@
+.footer{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 50px;
+    background: black;
+}
+
+.eager{
+    width: 400px;
+    height: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eager > h1{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.eager >  button{
+    width: 150px;
+    height: 40px;
+    background: white;
+    font-family: 'Cormorant Sc', poppins, serif;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contact{
+    /* border: 1px solid white; */
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact > h1{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+}
+
+.contact > h2{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 12px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+.contact > h3{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+.contact > p{
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-size: 10px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}

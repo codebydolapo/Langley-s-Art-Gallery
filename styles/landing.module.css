@@ -1,0 +1,61 @@
+.landing{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    /* background: coral; */
+    background: url('/images/e.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-color: rgb(134, 133, 133);
+    background-blend-mode:color-burn;
+    padding-bottom: 100px;
+}
+
+.titleDiv{
+    width: 650px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid white; */
+}
+
+.titleDiv > h1{
+    font-size: 150px;
+    color: white;
+    font-family: 'Cormorant Sc', poppins, serif;
+    line-height: 150px;
+}
+
+.titleDiv > h2{
+    font-size: 30px;
+    color: white;
+    font-family: 'Cormorant Sc', poppins, serif;
+    font-weight: 300;
+}
+
+.landing > button{
+    background: rgb(64, 64, 245);
+    color: white;
+    font-family: 'Cormorant Sc', poppins, serif;
+    width: 120px;
+    height: 35px;
+    /* border: 0.5px solid rgb(255, 255, 255, 0.5); */
+    font-size: 13px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border: 0;
+    cursor: pointer;
+    transition: all ease-in 200ms;
+}
+
+.landing > button:hover{
+    transform: scale(1.05);
+}
